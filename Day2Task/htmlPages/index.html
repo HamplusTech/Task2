@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hamplus Tech</title>
+    <style>
+        /*html,body{
+            width:100% auto;
+            height: 100% auto;
+        }*/
+        #header{
+            background: peru;
+            font-size: 15px;
+            padding: 5px;
+        }
+        #title{
+             font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px; font-weight: bold; padding: 15px;
+            color: whitesmoke;
+        }
+        ul{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            overflow: hidden;
+            list-style: none;
+            float: right;
+        }
+        li {
+            float: left;text-decoration: none;
+            padding: 5px;overflow: hidden;
+        }
+        li a{
+            font-family: Arial, Helvetica, sans-serif;font-size: 13px;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        li a:hover{
+            /*color: blueviolet;*/
+            background: cadetblue;
+            border: 5px dashed cadetblue;
+        }
+        li :active{
+            background-color: rgba(pink, green, orange, alpha)
+        }
+        li a:visited{
+            color: chartreuse;
+        }
+        #Des{
+            text-align:center; background: repeating-linear-gradient(rgb(235, 154, 32),rgb(230, 208, 208));
+            word-spacing: 20px;
+            letter-spacing: 15px;
+            height: 60px;
+        }
+        #Middle{
+            padding-top: 1%;
+        }
+        #mee{
+            list-style: disc;
+            text-decoration: burlywood;
+            color: blue;float: none;
+            margin-left: -20%;
+        }
+        #mee ul{
+            list-style: disc;
+        }
+        #mee li{
+            float: none;
+            list-style: disc;
+        }
+        #mee a{
+            text-decoration: none;
+            color: blue;float: none;
+        }
+        #mee a:hover{
+            text-decoration: none;
+            color: blue;float: none;
+            background: none;
+            border: none;
+        }
+        #LinksRight{
+            float: right;
+            /*margin-right: 5%;*/
+            text-align: left;
+            /*margin-top: -30%;*/
+        }
+        #AllPost{
+            width: 75%;
+            /*float: left;*/
+            background: lightcyan;
+            text-align: justify;
+        }
+        #PostTopic{
+            margin: 1%;
+            font-size: 3em; font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #PostDate{
+            font-style: italic;
+            font-weight: bold;
+            margin-left: 10%
+        }
+        #PostDetails{
+            background: white;
+            color: cadetblue;
+            border: 2px solid grey;
+            text-align: center;
+            height: 25px;
+            font-weight: bold;
+        }
+        #Post{
+            margin: 2%;
+            font-size: 20px;
+        }
+        #Space{
+            margin: 5%;
+            background: white;
+            height: 70px;
+            border:2px solid purple;
+        }
+        #PostPicture{
+            background: gray;
+            height: 150px;
+            width: 150px;
+            color: whitesmoke;
+            float: right;
+        }
+        #Pages{
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Title and Link-->
+    <div id="header">
+            <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Our Services</a></li>
+                        <li><a href="">Our Products</a></li>
+                        <li><a href="">Reach Us</a></li>
+                    </ul>
+                </nav>
+        <div id="title"> Hamplus Technologies International
+            <address style="font-size: 13px"># 1 Christ's Chosen Road, Abraka - Delta State.</address>
+        </div>
+    </div>
+    <!--End of Title and Links-->
+    <!--Main Content-->
+    <div>
+    <!-- Blog Div-->
+        <div id="Des">
+            <h1 id="Middle">Company's Blog</h1>
+        </div>
+        <!--Subcontent-->
+        <div>
+            <!--Links on Right-->
+            <div id="LinksRight">
+                    <h2>Categories</h2>
+                    <ul id="mee">
+                        <li><a href="">Programming</a></li>
+                        <li><a href="">Graphics</a></li>
+                        <li><a href="">UI Designs</a></li>
+                        <li><a href="">Automation</a></li>
+                        <li><a href="">Simulation</a></li>
+                        <li><a href="">Machine Learning</a></li>
+                    </ul>
+                    <h2>Authors</h2>
+                    <ul id="mee">
+                        <li><a href="">Hamplus</a></li>
+                        <li><a href="">Jeff</a></li>
+                        <li><a href="">Churchill</a></li>
+                        <li><a href="">Peace</a></li>
+                    </ul>
+                </div>
+            <!--Post on Left-->
+            <div id="AllPost">
+                <div id="PostTopic"> kNN Algorithm </div>
+                <div id="PostDate">03/08/2019</div>
+                <div id="PostPicture">
+                        <h2 id="Middle">150 X 150</h2>
+                </div>
+                <div id="Post">
+                    <p>Nearest Neighbor Analysis is a method for classifying cases based on their similarity to other cases. In machine learning, it was developed as a way to recognize patterns of data without requiring an exact match to any stored patterns, or cases. Similar cases are near each other and dissimilar cases are distant from each other. Thus, the distance between two cases is a measure of their dissimilarity.
+                    </p>
+                    <p>Cases that are near each other are said to be “neighbors.” When a new case (holdout) is presented, its distance from each of the cases in the model is computed. The classifications of the most similar cases – the nearest neighbors – are tallied and the new case is placed into the category that contains the greatest number of nearest neighbors.
+                    </p>
+                </div>
+                <div id="PostDetails">
+                    Authors: <a href="">Hamplus</a> &nbsp;&nbsp;&nbsp;
+                    Comments: <a href="">5</a>
+                </div>
+                <div id="Space">
+                    <h2 id="Middle">Advert Runs Here!</h2>
+                </div>
+                <div id="PostTopic"> kNN Algorithm </div>
+                <div id="PostDate">03/08/2019</div>
+                <div id="PostPicture">
+                        <h2 id="Middle">150 X 150</h2>
+                </div>
+                <div id="Post">
+                    <p>Nearest Neighbor Analysis is a method for classifying cases based on their similarity to other cases. In machine learning, it was developed as a way to recognize patterns of data without requiring an exact match to any stored patterns, or cases. Similar cases are near each other and dissimilar cases are distant from each other. Thus, the distance between two cases is a measure of their dissimilarity.
+                    </p>
+                    <p>Cases that are near each other are said to be “neighbors.” When a new case (holdout) is presented, its distance from each of the cases in the model is computed. The classifications of the most similar cases – the nearest neighbors – are tallied and the new case is placed into the category that contains the greatest number of nearest neighbors.
+                    </p>
+                </div>
+                <div id="PostDetails">
+                    Authors: <a href="">Hamplus</a> &nbsp;&nbsp;&nbsp;
+                    Comments: <a href="">5</a>
+                </div>
+                <div id="Space">
+                    <h2 id="Middle">Advert Runs Here!</h2>
+                </div>
+                <div id="PostTopic"> kNN Algorithm </div>
+                <div id="PostDate">03/08/2019</div>
+                <div id="PostPicture">
+                        <h2 id="Middle">150 X 150</h2>
+                </div>
+                <div id="Post">
+                    <p>Nearest Neighbor Analysis is a method for classifying cases based on their similarity to other cases. In machine learning, it was developed as a way to recognize patterns of data without requiring an exact match to any stored patterns, or cases. Similar cases are near each other and dissimilar cases are distant from each other. Thus, the distance between two cases is a measure of their dissimilarity.
+                    </p>
+                    <p>Cases that are near each other are said to be “neighbors.” When a new case (holdout) is presented, its distance from each of the cases in the model is computed. The classifications of the most similar cases – the nearest neighbors – are tallied and the new case is placed into the category that contains the greatest number of nearest neighbors.
+                    </p>
+                </div>
+                <div id="PostDetails">
+                    Authors: <a href="">Hamplus</a> &nbsp;&nbsp;&nbsp;
+                    Comments: <a href="">5</a>
+                </div>
+                <div id="Space">
+                    <h2 id="Middle">Advert Runs Here!</h2>
+                </div>
+            </div>
+        </div>
+        <!--FooterLoop-->
+        <div id="Pages">
+            &copy <em>2019</em> <strong>Hamplus Technologies Int'l.</strong> 
+            <ul>
+                <li>Previous</li>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li>...</li>
+                <li><a href="">11</a></li>
+                <li><a href="">12</a></li>
+                <li><a href="">Next</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
